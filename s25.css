@@ -1,0 +1,33 @@
+body{
+    background-color: azure;
+    color: rgb(10, 77, 139);
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header,
+footer {
+    text-align: center;
+    background-color: rgb(224, 145, 145);
+}
+p, ol {
+    text-align: justify;
+    text-indent: 8ch;
+}
+h2, h3, h4 {
+    color: crimson;
+    text-decoration-line: underline;
+}
+h1 {
+    background: white;
+    background-size: 200%;
+    color: black;
+    font-size: 50px;
+}
+.box-1 {
+    background: gray;
+    height: 80%;
+    width: 80%;
+    padding: 10%;
+    margin: 10%;
+}
