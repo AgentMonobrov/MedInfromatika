@@ -1,6 +1,6 @@
 body{
     background-color: azure;
-    color: rgb(10, 77, 139);
+    color: rgb(230, 238, 245);
     margin: 5px;
     padding: 2px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,15 +19,40 @@ h2, h3, h4 {
     text-decoration-line: underline;
 }
 h1 {
-    background: white;
-    background-size: 200%;
     color: black;
     font-size: 50px;
 }
+body {
+    background-color: rgb(63, 63, 95);
+}
 .box-1 {
-    background: gray;
     height: 80%;
     width: 80%;
-    padding: 10%;
-    margin: 10%;
+    padding-bottom: 266px;
+    background-color: white;
+    margin-left: 22%;
+}
+.box-2 {
+    height: 80%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+}
+h5 {
+    font-size: xx-large;
+}
+.box-3 {
+    position: relative;
+    text-align: center;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 15%;
+    right: 3%;
+    padding-left: 50%;
 }
